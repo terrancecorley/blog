@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Data Structures & Algorithms"
-date: 2025-03-06
+date: 2025-03-09
 categories: dsa
 ---
 
@@ -77,4 +77,6 @@ class SinglyLinkedList {
 
 ## Algorithms, what are they?
  
-Use the example of adding to a singly linked list.
+An algorithm can be described as a set of instructions you give to the computer, usually through code. We actually have an example of one in the code snippet above. While the Node and SinglyLinkedList classes represent core parts of the singly-linked list data structure, the **append** function is an example of an algorithm. Within the append function, we have instructions (code) that detail to the computer how we want it to behave. In this case, creating a new node and appending it to the end of our list. That's mostly it, so when you hear someone mention the word algorithm in a programming context, they just mean the code/instructions that tell the computer to do something. Sticking to our data structure example where we created a human singly-linked list in an open field, the algorithm in that case could be a person hiding in a nearby bush telling each person when and where to go line up next in the list. 
+
+You may have also heard of something called Big O, I won't dive into that topic here but it usually referenced in terms of time and space complexity. Aka, how long an algorithm takes to run in respect to it's inputs and how much memory the algorithm takes up. I will likely do a deeper dive on these topics at a later point but wanted to mention it now as it is good to be aware that Big O is a thing. It is often the main driver on why we may choose one algorithm over another depending on the situation and constraints.  

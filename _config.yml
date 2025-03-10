@@ -28,6 +28,7 @@ url: "https://terrancecorley.com" # the base hostname & protocol for your site, 
 twitter_username: terrance_corley
 github_username:  terrancecorley
 linkedin_username: terrancecorley
+permalink: /:title
 
 # Build settings
 theme: minima
