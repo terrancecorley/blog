@@ -12,7 +12,7 @@ You are given an array of integers `nums` and a target integer `target`. Return 
 You can assume there are **exactly two integers** that add up to `target`. You may not use the same index twice. Return the two indices in an array.
 Can you come up with a solution that is less than O(n<sup>2</sup>) time complexity?
 
-Here is a [link](https://leetcode.com/problems/two-sum/description/) to the problem on LeetCode.
+Here is a [link](https://leetcode.com/problems/two-sum/description/){:target="\_blank"} to the problem on LeetCode.
 
 #### Example 1
 
@@ -44,15 +44,15 @@ element exists in our map, we have our answer and we can return the appropriate 
 
 ```ts
 function twoSum(nums: number[], target: number): number[] {
-  const numsMap = new Map();
+    const numsMap = new Map();
 
-  for (let [index, value] of nums.entries()) {
-    if (numsMap.has(target - value)) {
-      return [index, numsMap.get(target - value)];
-    } else {
-      numsMap.set(value, index);
+    for (let [index, value] of nums.entries()) {
+        if (numsMap.has(target - value)) {
+            return [index, numsMap.get(target - value)];
+        } else {
+            numsMap.set(value, index);
+        }
     }
-  }
 }
 ```
 
