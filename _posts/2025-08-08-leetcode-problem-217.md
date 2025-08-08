@@ -14,17 +14,17 @@ Here is a [link](https://leetcode.com/problems/contains-duplicate/description/){
 
 #### Example 1
 
-Input: nums = [1, 1, 2, 3]
+Input: `nums = [1, 1, 2, 3]`
 
-Output: true
+Output: `true`
 
 Explanation: The number 1 appears twice in the array.
 
 #### Example 2
 
-Input: nums = [1, 2, 3, 4]
+Input: `nums = [1, 2, 3, 4]`
 
-Output: false
+Output: `false`
 
 Explanation: All numbers are distinct in the array.
 
@@ -47,7 +47,7 @@ loop runs without returning true then we know we don't have duplicates and can r
 
 ## Solution
 
-```ts
+```js
 function containsDuplicate(nums) {
     const numsSet = new Set();
 
